@@ -480,9 +480,8 @@ img .persona {
 .lofiVideo {
     display: flex; 
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 60px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
