@@ -1,0 +1,615 @@
+/* Body, Nav Bar, Footer */
+
+body {
+    background-color: none;
+    margin: 0px !important;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #013863;
+    margin: 0px !important;
+}
+
+.navbarmenu {
+    display: flex;
+}
+
+.navbarmenu a {
+    font-family: Acme;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 20px;
+    cursor: pointer;}
+
+.navbarmenu a:hover {
+    font-weight: 600;
+}
+
+.mobilenavbarmenu {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #013863;
+    margin: 0px !important;
+    }
+
+.Copyright {
+    font-family: Arimo;
+    font-size: 14px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    }
+
+.footercopy {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    text-align: center;
+}
+
+.FooterLinkedText {
+    display: flex;
+    width: 40%;
+    text-align: center;
+}
+
+.FooterLinkedText a {
+    font-family: Acme;
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+    margin: 20px;
+}
+
+.FooterLinkedText a:hover {
+    font-weight: bold;
+}
+
+/* Homepage */
+
+#containerGrid {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headshotarea {
+    justify-content: start;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.imageheadshot {
+    width: 40%;
+    margin-top: 25px;
+    height: auto;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+}
+
+.AboutMe {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.ContactMethods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.AboutMe h1 {
+    font-family: Acme;
+    font-size: 48px;
+    font-style: normal;
+    color: black;
+}
+
+.AboutMe h2 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+}
+
+.AboutMe p {
+    font-family: Arimo;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+
+button.contactButton {
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Acme;
+    margin-left: 16px;
+    margin-right: 25px;
+    height: 58px;
+    width: 252px;
+    cursor: pointer;
+    background-color: #007b84;
+    border-radius: 20px;
+}
+
+.CaseStudy1, .CaseStudy2, .CaseStudy3, .CaseStudy4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-color: #007b84;
+    border-radius: 20px;
+    color: black;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.CaseStudy1 {
+    margin-top: 100px;
+}
+
+.CaseStudyText {
+    width: 65%;
+} 
+
+.CaseStudyText h1 {
+    text-align: left;
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: bold;
+    }
+
+.CaseStudyText p {
+    text-align: left;
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    }
+
+.CaseStudyImg {
+    width: 30%;
+}
+
+#bottomLeft {
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.iconimages {
+    width: 100%;
+}
+
+#bottomRight {
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.skillsimage {
+    width: 100%;
+}
+
+/* Contact Page */
+
+h3 {
+    font-family: Acme;
+    font-size: 36px;
+    font-style: normal;
+    color: black;
+}
+
+.contactheader {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactpageName {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshotcontact {
+    justify-content: start;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.contactName {
+    margin-bottom: 20px;
+}
+
+.contactTitle {
+    margin-bottom: 20px;
+}
+
+.headshotcontact h1 {
+    font-family: Acme;
+    font-size: 48px;
+    font-style: normal;
+    color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+
+.headshotcontact h2 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+
+.contactpageMethods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.contactpageMethods h4 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+
+/* Case Study 1 */
+.casestudyPageheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.casestudyPageheader h1 {
+    font-family: Acme;
+    font-size: 42px;
+    font-style: medium;
+    color: black;
+}
+
+.casestudyPageheader h2 {
+    font-family: Arimo;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pageheaderUnderline {
+    width: 50%;
+    height: 5px;
+    background-color: #007b84;
+}
+
+.casestudyheader {
+    text-align: center;
+}
+
+.casestudyheader h1 {
+    font-family: Acme;
+    margin: 50px auto;
+    font-size: 36px;
+    font-style: medium;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    position: relative;
+}
+
+.casestudyheader h1:before {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.casestudyheader h1:after {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.sectionOne {
+    display: block;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.sectionTwo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.casestudyDesc {
+    width: 100%;
+    text-align: center;
+}
+
+.casestudyDescStyletile {
+    width: 50%;
+}
+
+.styletile {
+    width: 50%;
+}
+
+.casestudyDescStyletile h1 {
+    font-family: arimo;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    text-align: left;
+    margin-bottom: 0px !important;
+}
+ 
+.casestudyDescStyletile p {
+    font-family: arimo;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    margin-top: 0px !important;
+}
+
+.casestudyDesc h1 {
+    font-family: arimo;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    text-align: left;
+    margin-bottom: 0px !important;
+}
+
+.casestudyDesc p {
+    font-family: arimo;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    margin-top: 0px !important;
+}
+
+ul.listfont {
+    font-family: arimo;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    }
+
+.resourcepage {
+    width: 50%;
+    height: auto;
+}
+
+.keyfindings { 
+    width: 60%;
+    height: auto;
+}
+
+img .persona {
+    border: 4px; 
+    border-color: #007b84;
+}
+
+.storyboard {
+    width: 60%;
+    height: auto;
+}
+
+.feature {
+    width: 70%;
+    height: auto;
+}
+
+.sitemap {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.wireframe {
+    width: 80%;
+    height: auto;
+}
+
+.styletileImg {
+    width: 100%;
+    height: auto;
+}
+
+.lofiVideo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.hifiVideo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+/* About Page */
+.aboutheader {
+    text-align: center;
+}
+
+.aboutheader h1:before {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.aboutheader h1:after {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 4px;
+    background-color: #007b84;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.aboutheader h1 {
+    font-family: Acme;
+    margin: 50px auto;
+    font-size: 36px;
+    font-style: medium;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    position: relative;
+}
+
+.skillsBoxes {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #007b84;
+    width: 260px;
+    height: auto;
+}
+
+.skillsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.skillsHeader h1 {
+    font-family: Acme;
+    font-size: 30px;
+    font-style: medium;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    position: relative;
+}
+
+.skillsLists {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: -15px;
+    margin-top: -30px;
+}
+
+ .skillsLists li {
+    font-family: arimo;
+    font-size: 20px;
+    font-style: normal;
+ }
+
+.sectionFour {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #containerGrid {
+        grid-template-columns: 100%;
+    }
+
+    .FooterLinkedText a {
+        font-size: 12px;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    } 
+
+    .FooterLinkedText a:hover {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #containerContact {
+        display: flex; 
+        flex-direction: column;
+    }
+    
+}
