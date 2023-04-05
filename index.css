@@ -186,6 +186,13 @@ button.contactButton {
     font-style: bold;
     }
 
+.CaseStudyText h2 {
+    text-align: left;
+    font-family: Arimo;
+    font-size: 10px;
+    font-style: italic;
+    }
+
 .CaseStudyText p {
     text-align: left;
     font-family: Arimo;
@@ -216,7 +223,7 @@ button.contactButton {
     margin-bottom: 20px;
 }
 
-.skillsimage {
+.strengthsimage {
     width: 100%;
     height: auto;
 }
