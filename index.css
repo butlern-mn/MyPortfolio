@@ -63,6 +63,7 @@ footer {
 
 .FooterLinkedText {
     display: flex;
+    flex-direction: row;
     width: 40%;
     text-align: center;
 }
@@ -96,9 +97,9 @@ footer {
     text-align: center;
 }
 
-.imageheadshot {
-    width: 40%;
-    margin-top: 25px;
+.headshotarea .imageheadshot {
+    width: 45%;
+    margin-top: 40px;
     height: auto;
 }
 
@@ -161,13 +162,12 @@ button.contactButton {
 .CaseStudy1, .CaseStudy2, .CaseStudy3, .CaseStudy4 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: solid;
     border-color: #007b84;
     border-radius: 20px;
     color: black;
-    padding: 2%;
     margin-bottom: 20px;
 }
 
@@ -176,7 +176,7 @@ button.contactButton {
 }
 
 .CaseStudyText {
-    width: 65%;
+    width: 43%;
 } 
 
 .CaseStudyText h1 {
@@ -194,7 +194,7 @@ button.contactButton {
     }
 
 .CaseStudyImg {
-    width: 30%;
+    width: 43%;
 }
 
 #bottomLeft {
@@ -206,6 +206,7 @@ button.contactButton {
 
 .iconimages {
     width: 100%;
+    height: auto;
 }
 
 #bottomRight {
@@ -217,11 +218,12 @@ button.contactButton {
 
 .skillsimage {
     width: 100%;
+    height: auto;
 }
 
 /* Contact Page */
 
-h3 {
+.contactheader h3 {
     font-family: Acme;
     font-size: 36px;
     font-style: normal;
@@ -233,20 +235,30 @@ h3 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
 }
 
-.contactpageName {
+.contactpageContact {
     display: flex; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.headshotcontact {
+.contactpageHeadshot {
+    display: flex;
+    flex-direction: column;
     justify-content: start;
     align-content: center;
     width: 100%;
     text-align: center;
+}
+
+.contactpageHeadshot .imageheadshot {
+    width: 45%;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .contactName {
@@ -254,10 +266,10 @@ h3 {
 }
 
 .contactTitle {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.headshotcontact h1 {
+.contactpageHeadshot h1 {
     font-family: Acme;
     font-size: 48px;
     font-style: normal;
@@ -266,7 +278,7 @@ h3 {
     margin-block-end: 0em !important;
 }
 
-.headshotcontact h2 {
+.contactpageHeadshot h2 {
     font-family: Arimo;
     font-size: 24px;
     font-style: normal;
@@ -281,7 +293,7 @@ h3 {
     align-items: center;
     text-align: center;
     width: 100%;
-    gap: 40px;
+    gap: 60px;
 }
 
 .contactpageMethods h4 {
@@ -292,6 +304,63 @@ h3 {
     margin-block-start: 0em !important;
     margin-block-end: 0em !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .contactpageContact {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contactpageMethods {
+        margin-bottom: 40px;
+    }
+
+    .email img {
+        width: 75%;
+        height: auto;
+    }
+
+    .linkedin img {
+        width: 75%;
+        height: auto;
+    }
+
+    .contactheader h3 {
+        font-family: Acme;
+        font-size: 24px;
+        font-style: normal;
+        color: black;
+    }
+
+    .contactpageHeadshot h2 {
+        font-family: Arimo;
+        font-size: 22px;
+        font-style: normal;
+        color: black;
+        margin-block-start: 0em !important;
+        margin-block-end: 0em !important;
+    }
+
+    .contactpageHeadshot h1 {
+        font-family: Acme;
+        font-size: 40px;
+        font-style: normal;
+        color: black;
+        margin-block-start: 0em !important;
+        margin-block-end: 0em !important;
+    }
+
+    .contactpageMethods h4 {
+        font-family: Arimo;
+        font-size: 20px;
+        font-style: normal;
+        color: black;
+        margin-block-start: 0em !important;
+        margin-block-end: 0em !important;
+    }
+    }
 
 /* Case Study 1 */
 .casestudyPageheader {
@@ -586,6 +655,99 @@ img .persona {
 @media only screen and (max-width: 600px) {
     #containerGrid {
         grid-template-columns: 100%;
+        gap: none !important;
+    }
+
+    .AboutMe h1 {
+        font-family: Acme;
+        font-size: 36px;
+        font-style: normal;
+        color: black;
+    }
+    
+    .AboutMe h2 {
+        font-family: Arimo;
+        font-size: 20px;
+        font-style: normal;
+        color: black;
+    }
+    
+    .AboutMe p {
+        font-family: Arimo;
+        font-size: 12px;
+        font-style: normal;
+        color: black;
+    }
+
+    button.contactButton {
+        font-size: 18px;
+        font-family: Acme;
+        margin-left: 16px;
+        margin-right: 25px;
+        height: 50px;
+        width: 220px;
+        background-color: #007b84;
+        border-radius: 10px;
+    }
+
+    .CaseStudy1, .CaseStudy2, .CaseStudy3, .CaseStudy4 {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid;
+        border-color: #007b84;
+        border-radius: 20px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .CaseStudy1 {
+        margin-top: 15px;
+    }
+    
+    .CaseStudyText {
+        width: 42%;
+    } 
+    
+    .CaseStudyText h1 {
+        text-align: left;
+        font-family: Arimo;
+        font-size: 20px;
+        font-style: bold;
+        }
+    
+    .CaseStudyText p {
+        text-align: left;
+        font-family: Arimo;
+        font-size: 12px;
+        font-style: normal;
+        }
+    
+    .CaseStudyImg {
+        width: 54%;
+    }
+
+    #bottomLeft {
+        padding: 5px;
+        margin-bottom: 0px;
+    }
+    
+    #bottomRight {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .navbarmenu a {
+        font-size: 14px
+    }
+
+    .footercopy {
+        width: 100%;
+    }
+
+    .FooterLinkedText {
+        width: 100%;
     }
 
     .FooterLinkedText a {
@@ -596,19 +758,6 @@ img .persona {
         font-size: 12px;
     } 
 
-    .FooterLinkedText a:hover {
-        font-size: 16px;
-    }
-
-    footer {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
-
-    #containerContact {
-        display: flex; 
-        flex-direction: column;
-    }
+   
     
 }
