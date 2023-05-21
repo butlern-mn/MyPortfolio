@@ -711,6 +711,31 @@ ul.listfont {
     height: auto;
 }
 
+.wsAffinity {
+    width: 60%;
+    height: auto;
+}
+
+.wsQuotes {
+    width: 50%;
+    height: auto;
+}
+
+.wsStoryboard {
+    width: 70%;
+    height: auto;
+}
+
+.wsWireframes {
+    width: 40%;
+    height: auto;
+}
+
+.wsWireframes2 {
+    width: 70%;
+    height: auto;
+}
+
 /* About Page */
 .aboutheader {
     text-align: center;
