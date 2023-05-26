@@ -655,6 +655,27 @@ ul.listfont {
         height: auto;
     }
 
+    .wsAffinity {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .wsQuotes {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsPersona {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsStoryboard {
+        width: 100%;
+        height: auto;
+    }
+
     .lofiVideo {
         display: block; 
         text-align: center;
@@ -692,6 +713,7 @@ ul.listfont {
         top: 50%;
         position: absolute;
     }
+
 }
 
 /* Case Study 2 - Wellness Spot */
@@ -735,6 +757,8 @@ ul.listfont {
     width: 70%;
     height: auto;
 }
+
+
 
 /* About Page */
 .aboutheader {
