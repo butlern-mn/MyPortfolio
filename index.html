@@ -8,12 +8,31 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-
-        <meta name="viewport" content="initial-scale=1,width=device-width"/>
+        
+        <meta name="viewport" content="initial-scale=1, width=device-width"/>
         <link href="./index.css" rel="stylesheet" type="text/css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Howdy! Welcome to my portfolio site.</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to my portfolio site.</p>
+                        <p>Like all of us, this site is a work in progress. And is self-coded by a novice, but curious and aspiring developer…</p>
+                        <p>Thanks for visiting!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <header class="navigation">
             <nav>
                 <div class="navbarmenu active">
@@ -60,7 +79,7 @@
                 <div class="CaseStudy3">
                     <div class="CaseStudyText">
                         <h1>Wellness Spot Website Design</h1>
-                        <a href="./WellnessSpotcasestudy.html"></a><h2>View full case study</h2></a>
+                        <a href="./WellnessSpotcasestudy.html"><h2>View full case study</h2></a>
                         <p>Wellness Spot is an online wellness support program for boot camp students which encourages them to focus on their overall well being by promoting a culture of connection and self-care.</p>
                     </div>
                     <div class="CaseStudyImg">
@@ -88,17 +107,6 @@
                 <img src="./images/Strenths.png" class="strengthsimage">
             </div>
         </section>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-                <div class="modal-content">
-                  <p>Howdy! Welcome to my portfolio site.</p>
-                  <p>Like all of us, this site is a work in progress. And is self-coded by a novice, but curious and aspiring developer…</p>
-                  <p>Thanks for visiting!</p> 
-                  <button class="btn btn-default" id="mymodalButton">Done</button>
-                </div>
-        </div>
 
         <footer>       
             <div class="footercopy"><p class="Copyright">©2023 Nicole Butler</p></div>

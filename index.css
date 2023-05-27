@@ -81,7 +81,7 @@ footer {
 }
 
 /* The Modal (background) */
-.modal {
+#myModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -112,22 +112,12 @@ footer {
     font-style: normal;
     color: black;
   }
-  .modal-content button:hover {
-    background-color: #013863;
-    border-style: none; 
-  }
-  /* The Close Button */
-  .close {
-    color: #007b84;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .close:hover,
-  .close:focus {
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
+
+  .modal-body p {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
   }
 
 /* Homepage */
@@ -705,27 +695,6 @@ ul.listfont {
         height: auto;
     }
 
-    .wsAffinity {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-    
-    .wsQuotes {
-        width: 100%;
-        height: auto;
-    }
-
-    .wsPersona {
-        width: 100%;
-        height: auto;
-    }
-
-    .wsStoryboard {
-        width: 100%;
-        height: auto;
-    }
-
     .lofiVideo {
         display: block; 
         text-align: center;
@@ -778,6 +747,17 @@ ul.listfont {
     background-color: #007b84;
 }
 
+#wsHifi {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
 .surveyCharts {
     width: 90%;
     height: auto;
@@ -808,7 +788,39 @@ ul.listfont {
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .wsAffinity {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .wsQuotes {
+        width: 100%;
+        height: auto;
+    }
 
+    .wsPersona {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsStoryboard {
+        width: 100%;
+        height: auto;
+    }
+
+    #wsHifi {
+        display: flex; 
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+}
 
 /* About Page */
 .aboutheader {
