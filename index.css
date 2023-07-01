@@ -101,25 +101,36 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    margin: auto;
+    margin: auto 10%;
     padding: 20px;
     border: 3px solid #007b84;
-    width: 80%;
-  }
-  .modal-content p {
+    width: auto;
+    position: absolute;
+}
+
+.modal-body p {
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
     color: black;
-  }
+}
 
-  .modal-body p {
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    color: black;
+  .modal-header {
+    position: relative;
   }
+  
+.modal-content p {
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+}
 
+  button.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* Homepage */
 
 #containerGrid {

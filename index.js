@@ -13,4 +13,5 @@ $(document).ready(function(){
   // Show the Modal on load
 $(document).ready(function(){
   $("#myModal").modal("show");
+  // $("#myModal").modal("show").delay(15000).fadeOut(100);
 });
